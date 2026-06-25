@@ -79,7 +79,6 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              // PERBAIKAN: Logo dan Teks yang seragam
               Container(
                 padding: const EdgeInsets.all(20),
                 decoration: BoxDecoration(
