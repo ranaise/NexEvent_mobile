@@ -18,7 +18,7 @@ class AppColors {
 }
 
 class ApiConstants {
-  static const String baseUrl = 'http://192.168.1.37:8000/api';
+  static const String baseUrl = 'http://192.168.29.141:8000/api';
   static const String login = '$baseUrl/login';
   static const String register = '$baseUrl/register-student';
 }
