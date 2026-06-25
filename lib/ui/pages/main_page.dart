@@ -14,7 +14,6 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   int _selectedIndex = 0;
 
-  // Daftar halaman yang akan ditampilkan
   final List<Widget> _pages = [
     const HomePage(),
     const TicketsPage(),
