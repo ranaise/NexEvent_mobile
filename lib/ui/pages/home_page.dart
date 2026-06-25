@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
   List<dynamic> _filteredEvents = [];
   List<dynamic> _popularEvents = [];
   String _userName = '...';
-  String? _avatarUrl; // Variabel baru untuk foto profil
+  String? _avatarUrl;
 
   @override
   void initState() {
@@ -76,7 +76,6 @@ class _HomePageState extends State<HomePage> {
           _userName = fullName.split(' ')[0];
           _isCommittee = committeeData['is_committee'] ?? false;
 
-          // SET AVATAR JIKA ADA
           if (userData['avatar'] != null) {
             final String baseUrlImage = ApiConstants.baseUrl.replaceAll(
               '/api',
